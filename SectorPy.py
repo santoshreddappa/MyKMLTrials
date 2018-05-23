@@ -19,8 +19,3 @@ with open(openDirectory,'r') as csvfile:
     for row in csv_reader:
         siteData.append(row)
     csvfile.close
-
-siteData[0].append('Upper Bound')
-siteData[0].append('Lower Bound')
-
-
